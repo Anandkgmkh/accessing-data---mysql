@@ -96,7 +96,7 @@ public class controller {
   public String deleteRow(@PathVariable("id") int id)
   {
 	  userRepository.deleteById(id);
-	  return "row deleted";
+	  return "row deleted...";
   }
  
   @DeleteMapping("/deleteall")
